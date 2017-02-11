@@ -60,7 +60,7 @@ TCapp.controller('DetailController',['$scope', '$http', '$ionicLoading', '$route
  $http.get("http://netflixroulette.net/api/api.php?actor=tom%20cruise")
       .success(function(response) {
         $scope.characterDetail = response[$routeParams.itemId];
-        $scope.characterDetail.largeImage = $scope.characterDetail.url.substring(48,52);
+        $scope.characterDetail.largeImage = $scope.characterDetail.url;
 
         $ionicLoading.hide();
       });
