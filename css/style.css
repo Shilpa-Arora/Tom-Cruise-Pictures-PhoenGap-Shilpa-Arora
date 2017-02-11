@@ -2,6 +2,8 @@
 
 body {
 	font-family: 'Open Sans', Arial, sans-serif;
+  font-weight: 400px;
+	font-size: 14px;
 }
 #mainCon{
 	text-align: center;
@@ -37,6 +39,7 @@ padding-top: 2%;
 }
 .title {
 	font-size: 26px !important;
+  	font-weight: 700px !important;
 
 }
 
