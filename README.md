@@ -3,7 +3,7 @@
 Tom Cruize movies is a mobile application developed in ionic framework deployed using phonegap build. I also used splash screens for mobile screens.
 
 ## Features
-* On scroll loding feature
+* On scroll loading feature
 * Default images for missing images
 * Splash screens for different screen sizes.
 * Application icon for different screen sizes.
